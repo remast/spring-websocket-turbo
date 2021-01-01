@@ -71,3 +71,6 @@ The raw text message sent over the web socket is:
 ```
 
 Turbo Streams use raw JSON messages over WebSockets without STOMP.
+
+## Credits
+A lot of insights by https://github.com/mbucc/hotwire-demo-chat-in-springboot.
