@@ -29,7 +29,7 @@ public class SocketHandler extends TextWebSocketHandler {
         identifierJson.put("signed_stream_name", "**mysignature**");
 
         // 2. Create Turbo Stream Action
-        String turboAction = "<turbo-stream action='append' target='board'>" +
+        var turboAction = "<turbo-stream action='append' target='board'>" +
                 "<template>" +
                 "<p>$$MESSAGE$$</p>" +
                 "</template>" +
